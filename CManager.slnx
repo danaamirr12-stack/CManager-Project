@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="CManager.Business/CManager.Business.csproj" />
+  <Project Path="CManager.Data/CManager.Data.csproj" />
+  <Project Path="CManager.Presentation.ConsoleApp/CManager.Presentation.ConsoleApp.csproj" />
+</Solution>
