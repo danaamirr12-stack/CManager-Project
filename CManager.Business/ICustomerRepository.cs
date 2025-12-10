@@ -1,6 +1,4 @@
-﻿using CManager.Business;
-
-namespace CManager.Data
+﻿namespace CManager.Business
 {
     public interface ICustomerRepository
     {
