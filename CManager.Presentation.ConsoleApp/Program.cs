@@ -6,5 +6,4 @@ Console.WriteLine("Hello, World!");
 namespace CManager.Presentation.ConsoleApp
 {
     internal class Program
-    {
-        // resten av koden...
+}  
