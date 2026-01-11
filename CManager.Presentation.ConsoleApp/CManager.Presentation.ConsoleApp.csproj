@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CManager.Business\CManager.Business.csproj" />
+    <ProjectReference Include="..\CManager.Data\CManager.Data.csproj" />
   </ItemGroup>
 
 </Project>

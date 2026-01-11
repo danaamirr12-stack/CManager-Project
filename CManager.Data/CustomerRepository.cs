@@ -21,8 +21,21 @@ namespace CManager.Data
             }
 
             string json = File.ReadAllText(filePath);
+
+            if (string.IsNullOrEmpty(json))
+            {
+                return new List<Customer>();
+            }
+
             List<Customer> customers = JsonSerializer.Deserialize<List<Customer>>(json);
+
+            if (customers == null)
+            {
+                return new List<Customer>();
+            }
+
             return customers;
         }
     }
 }
+// Använde AI här för att få JSON-läsningen att funka och fixa felhanteringen.

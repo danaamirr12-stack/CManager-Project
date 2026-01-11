@@ -1,6 +1,4 @@
-﻿
-
-namespace CManager.Business
+﻿namespace CManager.Business
 {
     public class CustomerService : ICustomerService
     {
@@ -17,7 +15,7 @@ namespace CManager.Business
         {
             Customer customer = new Customer
             {
-                Id = Guid.NewGuid().ToString(),
+                Id = Guid.NewGuid(),
                 FirstName = firstName,
                 LastName = lastName,
                 Email = email,
@@ -58,4 +56,4 @@ namespace CManager.Business
             }
         }
     }
-} 
+}
